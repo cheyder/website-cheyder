@@ -1,0 +1,22 @@
+.skills {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-content: stretch;
+    justify-items: center;
+    align-items: start;
+}
+
+.skills__web {
+   list-style: none;
+   padding: 0;
+
+}
+
+.skills__text {
+    list-style: none;
+    padding: 0;
+}
+
+.address__logo {
+    width: 100%;
+}

@@ -8,42 +8,60 @@
 </head>
 <body> 
     <nav>
-        <a href="">skills</a>
-            <a href="mailto:">mail</a>
-        <a href="">cv</a>
+        <a href="#skills">skills</a>
+        <a href="#contact">contact</a>
+        <a href="#cv">cv</a>
     </nav>
     <header>
         <h1>web and text development</h1>
         <h2>Christopher Heyder</h2>
         <img class="header__img" src="bewerbungsfoto.png" alt="">
-        <section class="header__skills">
-                <ul class="header__skills__web">
-                    <h3>web skills</h3>
-                    <li>HTML</li>
-                    <li>CSS</li>
-                    <li>JavaScript</li>
-                </ul>
-                <ul class="header__skills__text">
-                    <h3>text skills</h3>
-                    <li>Lektorat</li>
-                    <li>Dramaturgie</li>
-                    <li>Dokumentaristik</li>
-                </ul>
-                
-        </section>
     </header>
-    <address>
-        <a href="mailto:">
-            <img src="" alt="">
-        </a>
-    </address>
-    <section class="cv">
-        <h3>curriculum vitae</h3>
-        <ul class="cv__table">
-            <li class="cv__table__item">Bachelor of Arts</li>
-            <li class="cv__table__item">Dramaturgieassistenz</li>
-            <li class="cv__table__item">Master of Arts</li>
+    <section id= "skills" class="skills">
+        <ul class="skills__web">
+            <h3>web skills</h3>
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>JavaScript</li>
         </ul>
+        <ul class="skills__text">
+            <h3>text skills</h3>
+            <li>Lektorat</li>
+            <li>Dramaturgie</li>
+            <li>Dokumentaristik</li>
+        </ul>
+        
+</section>
+    <address id="contact">
+        <a href="mailto:">
+            <img class="address__logo" src="logos/mail.png" alt="">
+        </a>
+        <a href="https://github.com/cheyder/"><img class="address__logo" src="logos/github-logo.png" alt="Link to Git Hub" class="card-img-top p-3"></a>
+        <a href="https://www.linkedin.com/in/christopher-heyder"><img class="address__logo" src="logos/linkedin-logo.png" alt="Link to Linked In" class="card-img-top p-4"></a>
+        <a href="https://codepen.io/chrisheyder"><img class="address__logo" src="logos/codepen-logog.png" alt="Link to Code Pen"></a>
+    </address>
+    <section id="cv" class="cv">
+        <h3>curriculum vitae</h3>
+        <details>
+            <summary>2012-2015 Bachelor of Arts</summary>
+            <p>Philosophie und Germanistische Linguistik an der Humboldt Universität zu Berlin. Bachelorthesis: "Die Ästhetik von Texten nach Kants Kritik der Urteilskraft"</p>
+        </details>
+        <details>
+            <summary>2015-2017 Dramaturgieassistenz</summary>
+            <p>ETA Hoffmann Theater Bamberg. Produktionsdramaturgie, Redaktion, Lektorat, Organisatorische Leitung
+                zweier regelmäßiger Publikationen, Materialrecherchen, Publikumsgespräche,
+                Lesungen, Vermittlungskampagnen.</p>
+        </details>
+        <details>
+            <summary>2017-2019 Master of Arts</summary>
+            <p>Literarisches Schreiben und Lektorieren am Literaturinstitut Hildesheim. Masterthesis: "Vom Versuch der literarischen Umsetzung einer Subjektauflösung"</p>
+        </details>
     </section>
+    <footer>
+        <details>
+            <summary>Impressum</summary>
+            <p>Icons made by <a href="https://www.flaticon.com/<?=_('authors/')?>freepik" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" title="Flaticon"> www.flaticon.com</a></p>
+        </details>
+    </footer>
 </body>
 </html>
