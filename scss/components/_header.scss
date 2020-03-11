@@ -1,0 +1,25 @@
+.header__img {
+    width: 100%;
+    padding: 15%;
+}
+
+.header__skills {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-content: stretch;
+    justify-items: center;
+    align-items: start;
+}
+
+.header__skills__web {
+   grid-column: 1 / 2;
+   list-style: none;
+   padding: 0;
+
+}
+
+.header__skills__text {
+    grid-column: 2 / -1;
+    list-style: none;
+    padding: 0;
+}
