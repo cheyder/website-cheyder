@@ -6,7 +6,10 @@
 
 body {
     display: grid;
-}
+    font-family: var(--webfonts);
+    margin: 0;
+    padding: 0;
+} 
 
 nav {
     display: grid;
@@ -19,19 +22,24 @@ nav {
     height: 48px;
 }
 
+a {
+    text-decoration: none;
+}
+
 header {
     display: grid;
     justify-items: center;
     width: 100%;
 }
 
+//funktioniert nicht in Firefox
 summary::-webkit-details-marker {
     display: none;
 }
-
+/*
 summary::after {
     content: "+";
     text-align: end;
-}
+}*/
 
 

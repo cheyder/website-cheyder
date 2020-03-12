@@ -1,3 +1,12 @@
-*{box-sizing:border-box}body{display:grid}nav{display:grid;grid-template-columns:repeat(3, 60px);gap:12px;justify-content:center;justify-items:center;align-items:center;height:48px}header{display:grid;justify-items:center;width:100%}summary::-webkit-details-marker{display:none}summary::after{content:"+";text-align:end}.header__img{width:100%;padding:15%;margin:15%;background:salmon}.cv_accordion{display:grid;justify-content:stretch;justify-items:center}.skills{display:grid;grid-template-columns:1fr 1fr;justify-content:stretch;justify-items:center;align-items:start}.skills__web{list-style:none;padding:0;color:hotpink}.skills__text{list-style:none;padding:0;color:cornflowerblue}.contact{display:grid;grid-template-columns:repeat(4, 1fr);gap:12px;justify-items:center;align-items:center;padding:4px;font-size:2rem}.contact__logo{width:100%}
+:root{--webfonts: -apple-system, 
+                BlinkMacSystemFont, 
+                "Segoe UI", 
+                Roboto, 
+                Oxygen,
+                Ubuntu,
+                Cantarell,
+                "Open Sans",
+                "Helvetica Neue", 
+                sans-serif}*{box-sizing:border-box}body{display:grid;font-family:var(--webfonts);margin:0;padding:0}nav{display:grid;grid-template-columns:repeat(3, 60px);gap:12px;justify-content:center;justify-items:center;align-items:center;height:48px}a{text-decoration:none}header{display:grid;justify-items:center;width:100%}summary::-webkit-details-marker{display:none}.header__img{width:100%;padding:15%}.header__title{text-align:center}.cv_accordion{display:grid;justify-content:stretch;justify-items:center}.skills{display:grid;grid-template-columns:1fr 1fr;justify-content:stretch;justify-items:center;align-items:start}.skills__web{list-style:none;padding:0}.skills__text{list-style:none;padding:0}.contact{display:grid;grid-template-columns:repeat(4, 1fr);gap:12px;justify-items:center;align-items:center}.contact__logo{width:100%}
 
 /*# sourceMappingURL=styles.css.map */
