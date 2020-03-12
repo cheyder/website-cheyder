@@ -1,0 +1,13 @@
+.contact {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 12px;
+    justify-items: center;
+    align-items: center;
+
+    padding: 4px;
+}
+
+.contact__logo {
+    width: 100%;
+}

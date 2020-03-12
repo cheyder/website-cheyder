@@ -1,5 +1,10 @@
 // https://freefrontend.com/html-details-summary-css/
 
-.cv__accordion {
-    
+.cv_accordion {
+    display: grid;
+    justify-content: stretch;
+    justify-items: center;
+}
+
+.cv_accordion__summary {
 }

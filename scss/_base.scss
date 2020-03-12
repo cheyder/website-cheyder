@@ -25,4 +25,13 @@ header {
     width: 100%;
 }
 
+summary::-webkit-details-marker {
+    display: none;
+}
+
+summary::after {
+    content: "+";
+    text-align: end;
+}
+
 
