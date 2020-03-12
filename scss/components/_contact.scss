@@ -1,11 +1,28 @@
 .contact {
+}
+.contact__title {
+    grid-column: span 4;
+    margin-block: 4px;
+    padding: 8px;
+    font-style: normal;
+    text-align: center;
+    
+}
+
+.contact__body {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     gap: 12px;
     justify-items: center;
     align-items: center;
+    padding-inline: 12px;
+    margin-inline: 24px;
+    border: 1px solid hotpink;
+    border-radius: 4px;
+    
 }
 
 .contact__logo {
-    width: 100%;
+    width: 60px; // relative to which container? why is there no size-controle with height-settings possible. neither in this class nor in the grid container with 'max-height'?
+    padding: 8px;
 }
