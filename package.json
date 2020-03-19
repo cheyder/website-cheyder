@@ -4,7 +4,7 @@
   "description": "My personal website",
   "main": "index.html",
   "scripts": {
-    "start": "",
+    "start": "parcel src/index.html --out-dir docs",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
